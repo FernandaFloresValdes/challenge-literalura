@@ -3,32 +3,6 @@
 Literalura es una aplicación desarrollada con Spring Boot que permite gestionar información relacionada con literatura 📖, como libros, autores y sus datos asociados.
 El proyecto sigue una arquitectura organizada y modular, facilitando el mantenimiento, la escalabilidad y el trabajo en equipo.
 
-🗂️ Estructura del Proyecto
-
-El proyecto está organizado de la siguiente forma:
-
-literatura
-│
-├── .idea
-├── .mvn
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com.alura.literatura
-│   │   │       ├── config
-│   │   │       ├── dto
-│   │   │       ├── model
-│   │   │       ├── principal
-│   │   │       ├── repository
-│   │   │       ├── service
-│   │   │       └── LiteraturaApplication.java
-│   │   └── resources
-│   │       ├── application.properties
-│   │       └── logback-spring.xml
-│   └── test
-│
-└── target
-
 
 🧩 Descripción de los directorios principales
 
@@ -87,4 +61,5 @@ mvnw / mvnw.cmd → Scripts para ejecutar Maven sin instalarlo.
 📌 Literalura es un proyecto Spring Boot bien estructurado que aplica buenas prácticas como separación de capas, uso de DTOs, configuración centralizada y control de dependencias con Maven. Está preparado para escalar, mantenerse y evolucionar fácilmente 🚀.
 
 Contiene archivos del Maven Wrapper, que permiten ejecutar Maven sin tenerlo instalado globalmente.
+
 
